@@ -1,0 +1,29 @@
+body{
+    height: 100hv;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.login{
+    background-color: white;
+    max-width: 900px;
+}
+
+.login img{
+    float: left;
+    width: 40%;
+}
+
+.login form{
+    float: right;
+}
+
+.login-content{
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
